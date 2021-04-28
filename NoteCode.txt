@@ -1,0 +1,39 @@
+App.js
+    jsx là cú pháp mở rộng của React, cho phép sử dụng 1 component ở phía trong 1 component khác
+	<> </> là fract ment trong react
+	React Hook: useState, useCallback - giúp biến không bị khởi tạo lại sau mỗi lần r-render
+				useEffect - lưu lại dữ liệu khi reload app
+	...todo : lấy tất cả các thuộc tính của todo
+
+
+
+TodoList.js
+	shouldFitContainer chiếm hết không gian trong 1 hàng
+	việc set key để giúp cho react có thể xác định đc component nào có sự thay đổi về giữa liệu và chỉ update component
+
+hosting : này là 1 lỗi, đặt biến ở cuối hàm, nhưng thật ra biến đó đc declare trên đầu hàm, xảy ra lỗi khi dùng var
+
+
+let chỉ đc khai báo trong pros, chỉ có giá trị trong pro đó thôi, const thì giá trị của nó k đc thay đổi, var khai báo đè
+
+dùng let thay cho var để dễ dàng xác định đc scope của biến, dễ quản lý hơn
+
+callback truyền 1 hàm đối số vào 1 hàm khác, tạo event thì đưa call back function vào để khi người dùng bấm vào 1 cái nút
+			hay hover chuột thì nó sẽ gọi cái hàm đó
+
+closer ghi nhớ các cái biến bên ngoài nó 
+
+nút move to top : dùng id ở thẻ html trên đầu trang web : dùng link hoặc là dùng hàm sroll or sroll interview của JS
+
+form login : viết call back vào hàm onSubmit, dùng JS để lấy thông tin đã điền, check xem có đúng hay k, đúng username thì
+
+ES6 có let const class dùng lập trình OPP , lúc trc xài function, kế thừa thì xài prototype
+
+React tách thành nhiều component nên cách viết code tiện hơn, gom hết toàn bộ html cho tới xử lý nằm trong component và
+	tái sử dụng nhiền lần
+
+dùng stateless(functionnal) component tại vì nó gọn hơn, dễ test hơn , nó chỉ có cái hàm input, output thôi
+				input là pros, output là cái render
+
+
+
